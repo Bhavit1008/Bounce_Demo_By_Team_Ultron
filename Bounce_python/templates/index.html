@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Index</title>
+</head>
+<body>
+<b>hello!!</b>
+    <table style="width:100%">
+        <tr>
+    <th> i['source'] </th>
+    <th> i['destination'] </th>
+    <th> i['distance'] </th>
+      <th> i['date']</th>
+    <th> i['time'] </th>
+    <th> i['price'] </th>
+      <th> i['rain'] </th>
+    <th> i['humidity'] </th>
+    <th> i['surge_multiplier'] </th>
+  </tr>
+        {% for i in cab_list %}
+  <tr>
+    <th>{{ i['source'] }}</th>
+    <th>{{ i['destination'] }}</th>
+    <th>{{ i['distance'] }}</th>
+      <th>{{ i['date'] }}</th>
+    <th>{{ i['time'] }}</th>
+    <th>{{ i['price'] }}</th>
+      <th>{{ i['rain'] }}</th>
+    <th>{{ i['humidity'] }}</th>
+    <th>{{ i['surge_multiplier'] }}</th>
+  </tr>
+        {% endfor %}
+
+</table>
+</body>
+</html>

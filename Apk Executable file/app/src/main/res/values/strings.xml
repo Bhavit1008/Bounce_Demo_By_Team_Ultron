@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">BounceDemo</string>
+    <string name="google_maps_key">AIzaSyC_NBFp9WLbMlUtsxBDy-sQvNRPPTTfMGc</string>
+    <array name="icons">
+        <item>@drawable/petrolpump</item>
+        <item>@drawable/police</item>
+        <item>@drawable/busstop</item>
+        <item>@drawable/hospital</item>
+    </array>
+
+    <array name="colors">
+        <item>@android:color/holo_blue_light</item>
+        <item>@android:color/holo_green_dark</item>
+        <item>@android:color/holo_red_dark</item>
+        <item>@android:color/holo_purple</item>
+    </array>
+</resources>
